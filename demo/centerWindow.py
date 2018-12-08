@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import sys
-from PyQt5.QtWidgets import QWidget, QDesktopWidget, QApplication
+from PyQt5 import Qt
 
+from PyQt5.QtWidgets import QWidget, QDesktopWidget, QApplication
 
 class Example(QWidget):
 
@@ -17,6 +18,8 @@ class Example(QWidget):
         self.center()
 
         self.setWindowTitle('Center')
+        self.setWindowFlags(Qt.WindowType.CustomizeWindowHint)
+
         self.show()
 
 
