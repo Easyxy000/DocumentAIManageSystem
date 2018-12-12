@@ -29,8 +29,8 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=False , icon='electron.icns')
+          console=False )
 app = BUNDLE(exe,
              name='main.app',
-             icon='electron.icns',
+             icon=None,
              bundle_identifier=None)

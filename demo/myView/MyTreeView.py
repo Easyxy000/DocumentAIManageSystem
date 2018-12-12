@@ -17,6 +17,10 @@ class MyTreeView(QTableView):
         self.setEditTriggers(QAbstractItemView.NoEditTriggers)
         header = CheckBoxHeader()
         self.setHorizontalHeader(header)
+        self.rowResized(0, 200, 200)
+    def sizeHintForRow(self, row: int):
+         return 200
+
     # def sizeHintForColumn(self, column: int):
     #     getSizeHin = self.fields[column].getSizeHint
     #     return getSizeHin() if getSizeHin is not None else super(MyTreeView, self).sizeHintForColumn(column)

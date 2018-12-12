@@ -34,7 +34,6 @@ class FileTableModel(QAbstractTableModel):
         # specialColumn
         self.specialColumn = specialColumn
         self.specialColumnCount = len(specialColumn) if type(specialColumn) == list else None
-
     def sortByField(self, idOrRank):
         if idOrRank == 0:
             return

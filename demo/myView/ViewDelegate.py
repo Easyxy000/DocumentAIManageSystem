@@ -50,19 +50,19 @@ class ViewDelegate(QItemDelegate):
     #
     #
     # def setEditorData(self, editor, index):
-    #     text = index.model().data(index, Qt.DisplayRole).toString()
+    #     textClassify = index.model().data(index, Qt.DisplayRole).toString()
     #     if index.column() == TEU:
-    #         value = text.replace(QRegExp("[., ]"), "").toInt()[0]
+    #         value = textClassify.replace(QRegExp("[., ]"), "").toInt()[0]
     #         editor.setValue(value)
     #     elif index.column() in (OWNER, COUNTRY):
-    #         i = editor.findText(text)
+    #         i = editor.findText(textClassify)
     #         if i == -1:
     #             i = 0
     #         editor.setCurrentIndex(i)
     #     elif index.column() == NAME:
-    #         editor.setText(text)
+    #         editor.setText(textClassify)
     #     elif index.column() == DESCRIPTION:
-    #         editor.setHtml(text)
+    #         editor.setHtml(textClassify)
     #     else:
     #         QItemDelegate.setEditorData(self, editor, index)
     #

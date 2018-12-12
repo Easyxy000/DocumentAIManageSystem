@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/demo/text/data/C11-Space/C11-Space0015.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/text/data/C3-Art/C3-Art0019.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/text/data/C3-Art/C3-Art0055.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/text/data/C3-Art/C3-Art0067.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/text/data/C3-Art/C3-Art0079.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/text/data/C39-Sports/C39-Sports0009.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/text/data/C39-Sports/C39-Sports0015.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/text/data/C39-Sports/C39-Sports0033.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo/text/data/C6-Philosophy/C6-Philosophy02.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../intro_ds/ch09-generative_models/naive_bayes/data/C39-Sports/C39-Sports0009.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../intro_ds/ch09-generative_models/naive_bayes/data/C39-Sports/C39-Sports0033.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../intro_ds/ch09-generative_models/naive_bayes/data/C6-Philosophy/C6-Philosophy02.txt" charset="GBK" />
+  </component>
+</project>

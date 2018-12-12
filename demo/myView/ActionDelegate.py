@@ -11,8 +11,8 @@ class ActionDelegate(QItemDelegate):
         if not self.parent().indexWidget(index):
             widget = QWidget()
 
-            btn = QPushButton("打开",widget)
-            btn.clicked.connect(lambda : self.parent().model.open(index.row()))
+            btn = QPushButton("查看重复项",widget)
+            btn.clicked.connect(lambda : self.parent().model.rowData(index.row()))
             btn.setObjectName("tableViewOpenBtn")
             widget.setObjectName("QTableViewDelegate")
             self.parent().setIndexWidget(

@@ -12,11 +12,15 @@ class SearchThread(QThread):
         self.searcher = searcher
         self.searchArgs = args
     def run(self):
+        self.isRun = True
         for item in self.searcher.search(*self.searchArgs):
-            self.putResultTrigger.emit(item)
-        self.sleep(1)
+            if self.isRun:
+                self.putResultTrigger.emit(item)
+            else:
+                return
         # 循环完毕后发出信号
         self.finishedTrigger.emit()
     def quit(self):
         self.searcher.stopSearch()
+        self.isRun = False
         super(SearchThread, self).quit()

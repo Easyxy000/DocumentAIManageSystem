@@ -1,3 +1,0 @@
-([('main',
-   '/Users/xushaojun/PycharmProjects/DocumentAIManageSystem/dist/main',
-   'EXECUTABLE')],)

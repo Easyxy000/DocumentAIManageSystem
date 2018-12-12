@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-from PyQt5.QtCore import QFile, QTimer, Qt
-from PyQt5.QtWidgets import (QApplication, QDialog, QHBoxLayout, QLabel,
-                             QMessageBox, QPushButton, QSplitter, QTableView, QTreeView, QVBoxLayout,
-                             QWidget, QItemDelegate)
-from demo.MyFileTableDemo import FileTableModel
+from PyQt5.QtWidgets import (QApplication)
 from demo.myView.mainForm import MainForm
 
 MAC = True

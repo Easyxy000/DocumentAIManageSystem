@@ -1,21 +1,14 @@
 import random
 
-import math
-from PyQt5 import sip
-
 from PyQt5.QtCore import QTimer
-from PyQt5.QtGui import QPageLayout
-from PyQt5.QtWidgets import QDialog, QLabel, QTreeView, QVBoxLayout, QTableView, QHBoxLayout, QPushButton, QFileDialog, \
-    QFrame
+from PyQt5.QtWidgets import QDialog, QVBoxLayout, QHBoxLayout, QPushButton, QFrame
 
-from GUI.EventSystem import eventSystem
+from GUI.main.EventSystem import eventSystem
 from core.FileSearch import FileSearcher
 from demo.Field import Field
-from demo.myView.CheckedDelegate import CheckedDelegate
 from demo.myView.FileTableModel import FileTableModel
 from demo.myView.ActionDelegate import ActionDelegate
 from demo.myView.MyTreeView import MyTreeView
-from demo.myView.ViewDelegate import ViewDelegate
 from functions import fileSizeConvertToFitUnit, timestampConvertToString
 
 
@@ -44,6 +37,7 @@ QHeaderView::section {
 QTableView::item,#QTableViewDelegate{ 
     background-color:#f7f9fc;
     border:0;
+    min-height: 200px;
 }
 
 QTableView::item:hover { 
@@ -110,7 +104,7 @@ QTableView::item:hover {
         # timer.start(1000)
         # self.timer = timer
         eventSystem.listen("getPartialResult", self.getPartialResult, self)
-        eventSystem.listen("finishSearch", self.finishSearch, self)
+        eventSystem.listen("finishClassify", self.finishSearch, self)
         eventSystem.listen("stopSearch", self.stopSearch, self)
         self.tableView = tableView
         self.model = model
@@ -158,6 +152,7 @@ QTableView::item:hover {
             files.append(item)
         self.model.load(files)
         self.resizeColumns()
+
     def resizeColumns(self):
         for tableView in (self.tableView, ):
             for column in range(6):

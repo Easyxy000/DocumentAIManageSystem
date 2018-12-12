@@ -15,7 +15,7 @@ from cv2.cv2 import imshow
 
 
 def getFeature(src):
-    im = np.array(Image.open(src))
+    im = np.array(Image.open(src).convert("RGB"))
     h, edges = np.histogramdd(im.reshape(-1, 3), 8, normed=True, range=[(0, 255), (0, 255), (0, 255)])
     return h.flatten()
 import os
@@ -27,12 +27,13 @@ def train(X, y):
         'min_child_weight': range(1, 6, 2)
     }
 
-    model = GridSearchCV(estimator=xgb.XGBRegressor(
+    model = GridSearchCV(estimator=xgb.XGBClassifier(
         max_depth=5,
         learning_rate=0.1,
         n_estimators=160,
         silent=True,
-        objective='multi:softmax'
+        objective='multi:softmax',
+
     ), param_grid=param_grid, cv=5)
     model.fit(X_train, y_train)
 
@@ -44,7 +45,7 @@ def train(X, y):
 X = []
 Y = []
 for i in range(3):
-    for root, dirs, files in os.walk("/users/xushaojun/classfiyData/group{0}".format(i + 1), topdown=False):
+    for root, dirs, files in os.walk("/users/xushaojun/data3/train/000{0}".format(i + 1), topdown=False):
         for file in files:
             if file[0] == ".": continue
 
@@ -55,7 +56,7 @@ score, model = train(X, Y)
 
 X_validate = []
 imglist = []
-for root, dirs, files in os.walk("/users/xushaojun/validate", topdown=False):
+for root, dirs, files in os.walk("/users/xushaojun/data3/test", topdown=False):
     for file in files:
         if file[0] ==".": continue
         imglist.append(file)
