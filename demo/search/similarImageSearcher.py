@@ -27,6 +27,6 @@ class SimilarImageSearcher:
             item[1] = sum((getFeature(item[0]) - targetFeature) ** 2)
         result = sorted(imglist,key=lambda item: item[1])[:limit]
         return result
-# result = SimilarImageSearch().search("/users/xushaojun/flickr-sunsets-small/3481780431_052b1d4bdb.jpg", "/users/xushaojun/flickr-sunsets-small")
+# result = ImageClassify().search("/users/xushaojun/flickr-sunsets-small/3481780431_052b1d4bdb.jpg", "/users/xushaojun/flickr-sunsets-small")
 # for item in result:
 #     print("{0} : {1}".format(item[0], item[1]))

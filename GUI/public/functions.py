@@ -2,7 +2,7 @@ import sys
 import subprocess
 import os
 
-from PyQt5.QtWidgets import QPushButton
+from PyQt5.QtWidgets import QPushButton, QMessageBox
 
 from configs.GUI import GUI_CONFIGS
 from configs.form import FORM_CONFIGS
@@ -12,7 +12,6 @@ from configs.configs import BASE_CONGIGS
 from configs.UIElements import UI_ELEMENTS_CONFIG
 import time
 import getpass
-from enum import Enum
 configs = {
     "config" : BASE_CONGIGS,
     "gui" : GUI_CONFIGS,
@@ -91,3 +90,9 @@ def getBtn(style : int, text, parent=None):
     btn =  QPushButton(text, parent)
     btn.setObjectName("button_{0}".format(styleNames[style]))
     return btn
+def questionDialog(msg, p):
+    reply = QMessageBox.question(p, '提示', msg, QMessageBox.Yes | QMessageBox.No, QMessageBox.Yes)
+    return reply == QMessageBox.Yes
+def infoDialog(msg, p):
+    reply = QMessageBox.information(p, '提示', msg, QMessageBox.Close, QMessageBox.Close)
+    return reply == QMessageBox.Close

@@ -1,28 +1,17 @@
 #!/usr/bin/env python3
-
-import platform
-
-import math
-
 import os
 import shutil
-
 from PyQt5.QtCore import (QAbstractTableModel, QModelIndex,QVariant, Qt,pyqtSignal)
 from PyQt5.QtWidgets import QFileDialog
-
 from core.Field import Field
-from functions import openFile
+from GUI.public.functions import openFile, questionDialog, infoDialog
 
-
-MAGIC_NUMBER = 0x570C4
-FILE_VERSION = 1
 
 class FileTableModel(QAbstractTableModel):
     dataChanged = pyqtSignal(QModelIndex,QModelIndex)
     def __init__(self, fields):
         super(FileTableModel, self).__init__()
         self.tableView = None
-        # files
         self.files = []
         self.fields = fields
         self.fieldIDMap = dict([(field.id, field) for field in fields])
@@ -118,19 +107,51 @@ class FileTableModel(QAbstractTableModel):
             self.open(row)
     def moveChecked(self):
         fname = QFileDialog.getExistingDirectory(self.tableView, 'Open file', '/home')
+        self.beginResetModel()
         if fname == "": return
-        for row in self.getCheckedIds():
+        ids = self.getCheckedIds()
+        if len(ids) <= 0:
+            infoDialog("请选择文件", self.tableView)
+            return
+        f, l = self.files[ids[0]]["fileName"],  len(ids)
+        if not questionDialog("您确认要\"{0}\"等{1}项文件移动到文件夹\"{2}\"".format(f, l, fname), self.tableView):
+            return
+        fileNameCount = dict()
+        for row in ids:
             file = self.files[row]
             fileName = file["fileName"]
+            if fileName in fileNameCount:
+                s = fileName.find(".")
+                if s == -1:
+                    fileName = fileName + str(fileNameCount[fileName] + 1)
+                else:
+                    fileName = fileName[:s] + str(fileNameCount[fileName] + 1) + fileName[s:]
+            else:
+                fileNameCount[fileName] = 1
             shutil.move(self.getCompletePath(row), os.path.join(fname, fileName))
             file["path"] = fname
+        infoDialog("您已成功将\"{0}\"等{1}项文件移动到文件夹\"{2}\"".format(f, l, fname), self.tableView)
+        self.endResetModel()
+
     def deleteChecked(self):
-        for row in self.getCheckedIds():
+        self.beginResetModel()
+        ids = self.getCheckedIds()
+        if len(ids) <= 0:
+            infoDialog("请选择文件", self)
+            return
+        f, l = self.files[ids[0]]["fileName"],  len(ids)
+        if not questionDialog("您确认要删除\"{0}\"等{1}项文件".format(f, l), self.tableView):
+            return
+        for row in ids:
             p = self.getCompletePath(row)
             if os.path.isdir(p):
                 os.rmdir(p)
             else:
                 os.remove(p)
             print("delete {0}".format(p))
+            self.removeRow(row)
+            self.files.remove(self.files[row])
+        self.endResetModel()
+        infoDialog("您已成功删除\"{0}\"等{1}项文件".format(f, l), self.tableView)
     def rowData(self, row):
         return self.files[row]

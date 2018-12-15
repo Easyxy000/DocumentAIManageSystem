@@ -3,9 +3,8 @@ from PIL import Image
 from scipy.cluster.vq import *
 import numpy as np
 import os
-import pylab
 from core.File import File
-from functions import getThumbCacheDir, config
+from GUI.public.functions import getThumbCacheDir, config
 exts = ["jpg"]
 class ImageCluster(File):
     def run(self, path, k):
@@ -98,6 +97,6 @@ class ImageCluster(File):
                 pylab.axis('equal')
                 pylab.axis('off')
         pylab.show()
-# results = ImageCluster().run("/users/xushaojun/imageClusterData", 3)
+# results = ImageClassify().run("/users/xushaojun/imageClusterData", 3)
 # for item in results:
 #     print(item)

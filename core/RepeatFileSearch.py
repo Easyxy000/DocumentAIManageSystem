@@ -65,3 +65,17 @@ class RepeatFileSearch(File):
         fp.close()
         checksum = checksum.digest()
         return checksum
+#test repeat in zip:
+#import zipfile, os
+#zip = zipfile.ZipFile("/users/xushaojun/Documents/吉他谱/遇见.jpg.zip")
+#zip.namelist()
+#['ΘüçΦºü.jpg', '__MACOSX/', '__MACOSX/._ΘüçΦºü.jpg']
+#zip.getinfo("ΘüçΦºü.jpg")
+#fp = zip.open("ΘüçΦºü.jpg")
+# checksum = hashlib.md5()
+# while True:
+#     buffer = fp.read(8192)
+#     if not buffer: break
+#     checksum.update(buffer)
+# fp.close()
+# checksum = checksum.digest()

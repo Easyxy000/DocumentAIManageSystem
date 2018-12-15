@@ -1,9 +1,9 @@
 import numpy as np
 from PIL import Image
 import os
-from functions import config, getThumbCacheDir
+from GUI.public.functions import config, getThumbCacheDir
 import math
-exts = ['jpg','png','bpm','gif']
+exts = ['jpg']
 class SimilarImageSearch:
     def __init__(self):
         self.fieldGetter = {
@@ -13,10 +13,10 @@ class SimilarImageSearch:
             "accessTime": lambda fileName: os.path.getmtime(fileName),
         }
     def getFeature(self,src):
-        im = np.array(Image.open(src).convert("RGB"))
+        im = np.array(Image.open(src))
         h, edges = np.histogramdd(im.reshape(-1, 3), 8, normed=True, range=[(0, 255), (0, 255), (0, 255)])
         return h.flatten()
-    def search(self, compareObj, searchRoot, limit=10):
+    def search(self, compareObj, searchRoot, scoreLimit,quantityLimit):
         cacheDir = getThumbCacheDir("similar")
         thumbSize = config("search.similarSearchThumbSize")
         imglist = []
@@ -28,20 +28,24 @@ class SimilarImageSearch:
                 imglist.append([completePath, None])
 
         targetFeature = self.getFeature(compareObj)
+
+        fitImgList = []
+        targetFeatureSum = np.sum(targetFeature)
         for item in imglist:
-            item[1] = sum((self.getFeature(item[0]) - targetFeature) ** 2)
-        compareResults = sorted(imglist,key=lambda item: item[1])[:limit]
+            score = int((1 - math.sqrt(sum((self.getFeature(item[0]) - targetFeature) ** 2)) / targetFeatureSum) * 100)
+            if score >= scoreLimit:
+                fitImgList.append((item[0], score))
+        compareResults = sorted(fitImgList,key=lambda item: item[1], reverse=True)[:quantityLimit]
 
         results = []
         i = 0
-        targetFeatureSum = np.sum(targetFeature)
         for item in compareResults:
             result = {}
             for field in self.fieldGetter:
                 result[field] = self.fieldGetter[field](item[0])
             completePath = item[0]
             s = completePath.rfind("/")
-            result["similarPercentage"] = "{0}%".format(int((1 - math.sqrt(item[1]) / targetFeatureSum) * 100))
+            result["similarPercentage"] = "{0}%".format(item[1])
             result["fileName"] = completePath[s + 1:]
             result["path"] = completePath[:s]
             thumbPath = os.path.join(cacheDir, "{0}.jpg".format(i))

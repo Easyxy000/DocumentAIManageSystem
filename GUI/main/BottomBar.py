@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QLabel
 from PyQt5.Qt import Qt
-from functions import config
+from GUI.public.functions import config
 class BottomBar(QLabel):
     def __init__(self, parent, size):
         super().__init__(parent)

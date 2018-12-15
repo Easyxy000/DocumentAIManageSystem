@@ -14,34 +14,31 @@ def getFeature(src):
     return h.flatten()
 X = []
 y = []
-limit = 1
-for i in range(3):
-    for root, dirs, files in os.walk("/users/xushaojun/data3/train/000{0}".format(i), topdown=False):
-        i = 0
+for i in range(4):
+    for root, dirs, files in os.walk("/users/xushaojun/imageClassifyData/train/class{0}".format(i + 1), topdown=False):
         for file in files:
             if file[0] == ".": continue
-            if i > limit:break
+            if "jpg" not in file:continue
             X.append(getFeature(os.path.join(root, file)))
-            y.append(i)
-            i += 1
-V,S, m = ImageCluster().pca(np.array(X).T)
-V = V[:50]
-X = np.array([np.dot(V, f - m) for f in X])
-# features = np.array(V)
-# features = whiten(features)
-clf = svm.SVC()  # class
-clf.fit(X, y)  # training the svc model
-
+            y.append(i + 1)
+X = np.array(X)
+y = np.array(y)
 X_validate = []
+k = 5
 imglist = []
-for root, dirs, files in os.walk("/users/xushaojun/data3/test", topdown=False):
+
+predictY = []
+for root, dirs, files in os.walk("/users/xushaojun/imageClassifyData/test", topdown=False):
     for file in files:
-        if file[0] ==".": continue
-        imglist.append(file)
-        X_validate.append(getFeature(os.path.join(root, file)))
+        if file[0] == ".": continue
+        if "jpg" not in file: continue
+        imglist.append(os.path.join(root, file))
+        f = getFeature(os.path.join(root, file))
+        distances = np.sum((f - X)**2,axis=1)
+        ys = distances.argsort()[:5]
+        ans = np.bincount(y[ys]).argmax()
+        predictY.append(ans)
 
 
-ans = clf.predict(X_validate)
-
-for img, predictY in zip(imglist, ans):
-    print("{0} is group {1}".format(img, predictY + 1))
+for img, i in zip(imglist, predictY):
+    print("{0} is group {1}".format(img, i))

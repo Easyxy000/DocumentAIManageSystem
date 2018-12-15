@@ -3,12 +3,11 @@ from GUI.public.ActionDelegate import ActionDelegate
 from GUI.public.AbstractResultPanel import AbstractResultPanel
 from GUI.public.ThumbDelegate import ThumbDelegate
 from core.Field import Field
-from functions import getThumbCacheDir, config, getBtn, INFO
+from GUI.public.functions import getThumbCacheDir, config, getBtn, INFO
 
 
 class ResultPanel(AbstractResultPanel):
     def __init__(self, p, size):
-        cacheDir = getThumbCacheDir("similar")
         thumbSize = config("search.similarSearchThumbSize")
         super().__init__(p, size,[
             Field("action", "操作",hasValue=False, delegateClass=ActionDelegate),

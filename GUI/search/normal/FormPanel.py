@@ -6,9 +6,9 @@ from GUI.public.FormItem import FormItem
 from GUI.public.AbstractFormPanel import AbstractFormPanel
 from GUI.public.DateLineEdit import DateLineEdit
 from core.SearchThread import SearchThread
-from functions import config, PRIMARY, INFO, DEFAULT
+from GUI.public.functions import config, PRIMARY, INFO, DEFAULT
 from core.FileSearch import FileSearcher
-from functions import getBtn
+from GUI.public.functions import getBtn
 WAITING, SEARCHING, FILTER = range(3)
 class FormPanel(AbstractFormPanel):
     def __init__(self, p):
@@ -117,8 +117,16 @@ class FormPanel(AbstractFormPanel):
             self.getDatePickerBtns("to", group),
         )
     def getDatePickerBtns(self, valueKey, checkedGroup : QButtonGroup):
-        textLine = DateLineEdit([lambda : checkedGroup.checkedButton().setChecked(False)])
+        textLine = DateLineEdit([self.getDateLineChange(checkedGroup)])
         return FormItem(textLine, textLine.getDate, valueKey)
+    def getDateLineChange(self, group: QButtonGroup):
+        def change():
+            print(group)
+            print(group.checkedId())
+            for item in group.children():
+                print(item.text())
+            group.checkedButton().setChecked(False)
+        return change
     def createCreatedTimeGroup(self):
         pass
     def getBtns(self):

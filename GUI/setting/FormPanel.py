@@ -1,14 +1,9 @@
-from GUI.main.EventSystem import eventSystem
-from PyQt5.QtWidgets import QLabel, QCheckBox, QButtonGroup, QLineEdit, \
-    QHBoxLayout, QComboBox, QRadioButton
-from PyQt5.Qt import Qt
+from PyQt5.QtWidgets import QLabel, QCheckBox, QLineEdit, \
+    QComboBox
 from GUI.public.FormItem import FormItem
 from GUI.public.AbstractFormPanel import AbstractFormPanel
-from GUI.public.DateLineEdit import DateLineEdit
-from core.SearchThread import SearchThread
-from functions import config, PRIMARY, INFO, DEFAULT
-from core.FileSearch import FileSearcher
-from functions import getBtn
+from GUI.public.functions import config, PRIMARY, DEFAULT
+from GUI.public.functions import getBtn
 class FormPanel(AbstractFormPanel):
     def __init__(self, p):
         super().__init__(p)

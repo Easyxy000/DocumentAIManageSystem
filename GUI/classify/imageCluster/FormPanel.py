@@ -4,8 +4,7 @@ from GUI.main.EventSystem import eventSystem
 from GUI.public.AbstractFormPanel import AbstractFormPanel
 from GUI.public.FormItem import FormItem
 from core.ImageClusterThread import ImageClusterThread
-from core.TextClassifyThread import TextClassifyThread
-from functions import getBtn, PRIMARY, INFO, SUCCESS
+from GUI.public.functions import getBtn, PRIMARY, INFO, SUCCESS
 
 
 class FormPanel(AbstractFormPanel):
@@ -30,12 +29,22 @@ class FormPanel(AbstractFormPanel):
     def getBtns(self):
         submitButton = getBtn(PRIMARY, "开始自动分类", self)
         submitButton.clicked.connect(self.classify)
+
+        textClassifyBtn = getBtn(INFO, "文本自动归类", self)
+        textClassifyBtn.clicked.connect(lambda: eventSystem.dispatch("changeTab", "textClassify"))
+
+        textClusterBtn = getBtn(INFO, "文本自动分类", self)
+        textClusterBtn.clicked.connect(lambda : eventSystem.dispatch("changeTab", "textCluster"))
+
+        imageClassifyBtn = getBtn(INFO, "图像自动分类", self)
+        imageClassifyBtn.clicked.connect(lambda: eventSystem.dispatch("changeTab", "imageClassify"))
+
         self.submitButton = submitButton
         return [
             submitButton,
-            getBtn(INFO, "文本自动分类", self),
-            getBtn(SUCCESS, "文本自动聚类", self),
-            getBtn(SUCCESS, "图像自动分类", self),
+            textClassifyBtn,
+            textClusterBtn,
+            imageClassifyBtn,
         ]
     def reset(self):
         self.searching = False
@@ -43,7 +52,7 @@ class FormPanel(AbstractFormPanel):
         self.submitButton.setText("重新分类")
     def classify(self):
         if self.searching:
-            eventSystem.dispatch("stopSearch")
+            eventSystem.dispatch("stopImageCluster")
             self.worker.quit()
             self.worker.wait()
             self.reset()
@@ -59,5 +68,7 @@ class FormPanel(AbstractFormPanel):
         worker.start()
         worker.finishedTrigger.connect(lambda results: eventSystem.dispatch("finishImageCluster", results))
         self.worker = worker
+        eventSystem.dispatch("setImageCluster", rawData["cluster_n"])
+
         print("classify!")
         return worker

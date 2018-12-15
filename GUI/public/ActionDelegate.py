@@ -1,7 +1,5 @@
 from PyQt5.Qt import QSize
 from PyQt5.QtWidgets import QItemDelegate, QPushButton, QWidget, QHBoxLayout
-
-
 class ActionDelegate(QItemDelegate):
     def __init__(self, parent=None):
         super(ActionDelegate, self).__init__(parent)

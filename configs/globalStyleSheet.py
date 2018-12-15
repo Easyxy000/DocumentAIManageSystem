@@ -171,16 +171,20 @@ QRadioButton{
     min-width:250px;
 }
 QHeaderView{
+background-color:#f7f9fc;
     padding:0;
     margin:0;
 
+}
+QHeaderView{
+background-color:#f7f9fc;
 }
 QHeaderView::section { 
     background-color:#f7f9fc;
     border: 0; 
     color: #666;
 }
-QTableView::item{
+QHeaderView::item{
     height:80px;
     min-height:80px;
 }
@@ -236,5 +240,11 @@ QTableView::item:hover {
     background-position: left center;
     background-origin: content;
     background-repeat: none;
+}
+
+#repeatWindow{
+    background-color:#f7f9fc;
+    margin : 0;
+    padding: 0;
 }
 """

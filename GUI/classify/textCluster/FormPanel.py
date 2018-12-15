@@ -3,9 +3,8 @@ from PyQt5.QtWidgets import QLineEdit
 from GUI.main.EventSystem import eventSystem
 from GUI.public.AbstractFormPanel import AbstractFormPanel
 from GUI.public.FormItem import FormItem
-from core.TextClassifyThread import TextClassifyThread
 from core.TextClusterThread import TextClusterThread
-from functions import getBtn, PRIMARY, INFO, SUCCESS
+from GUI.public.functions import getBtn, PRIMARY, INFO, SUCCESS
 
 
 class FormPanel(AbstractFormPanel):
@@ -28,18 +27,23 @@ class FormPanel(AbstractFormPanel):
             self.worker.quit()
             self.worker.wait()
     def getBtns(self):
-        submitButton = getBtn(PRIMARY, "开始归类整理", self)
+        submitButton = getBtn(PRIMARY, "开始自动分类", self)
         submitButton.clicked.connect(self.classify)
 
-        btn3 = getBtn(SUCCESS, "图像自动分类", self)
-        btn3.clicked.connect(lambda : eventSystem.dispatch("changeTab", "imageCluster"))
+        textClassifyBtn = getBtn(INFO, "文本自动归类", self)
+        textClassifyBtn.clicked.connect(lambda: eventSystem.dispatch("changeTab", "textClassify"))
 
+        imageClassifyBtn = getBtn(INFO, "图像自动分类", self)
+        imageClassifyBtn.clicked.connect(lambda: eventSystem.dispatch("changeTab", "imageClassify"))
+
+        imageClusterBtn = getBtn(INFO, "图像自动归类", self)
+        imageClusterBtn.clicked.connect(lambda: eventSystem.dispatch("changeTab", "imageCluster"))
         self.submitButton = submitButton
         return [
             submitButton,
-            getBtn(INFO, "文本自动分类", self),
-            getBtn(SUCCESS, "图像归类整理", self),
-            btn3,
+            textClassifyBtn,
+            imageClassifyBtn,
+            imageClusterBtn
         ]
     def reset(self):
         self.searching = False
@@ -47,7 +51,7 @@ class FormPanel(AbstractFormPanel):
         self.submitButton.setText("重新分类")
     def classify(self):
         if self.searching:
-            eventSystem.dispatch("stopSearch")
+            eventSystem.dispatch("stopTextCluster")
             self.worker.quit()
             self.worker.wait()
             self.reset()
@@ -63,4 +67,5 @@ class FormPanel(AbstractFormPanel):
         worker.start()
         worker.finishedTrigger.connect(lambda results: eventSystem.dispatch("finishTextCluster", results))
         self.worker = worker
+        eventSystem.dispatch("setTextCluster", rawData["cluster_n"])
         return worker

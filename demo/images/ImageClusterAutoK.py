@@ -4,13 +4,12 @@ from scipy.cluster.vq import *
 import numpy as np
 import os
 import pylab
-from sklearn import metrics
-from sklearn.cluster import KMeans
+ from sklearn.cluster import KMeans
 
 from core.File import File
-from functions import getThumbCacheDir, config
-from sklearn.metrics import silhouette_score
-exts = ["jpg"]
+from GUI.public.functions import getThumbCacheDir, config
+
+ exts = ["jpg"]
 class ImageCluster(File):
     def run(self, path, k):
         immatrix, imgList = self.getFeatureImmatrix(path)

@@ -1,8 +1,7 @@
 from PyQt5.QtWidgets import QLabel, QGridLayout, QPushButton, QLineEdit, QFileDialog, QHBoxLayout
 from PyQt5.Qt import Qt
-
 from GUI.main.MainContentTab import MainContentTab
-from functions import config, getUserRoot
+from GUI.public.functions import config, getUserRoot
 from GUI.public.FormItem import FormItem
 import time
 class AbstractFormPanel(QLabel):
@@ -10,11 +9,9 @@ class AbstractFormPanel(QLabel):
     def __init__(self, p : MainContentTab):
         super().__init__(p)
         self.form = {}
-        self.searcher = None
-        self.searching = False
-        self.p = p
-        self.grid : QGridLayout = None
         self.worker = None
+        self.searching = False
+        self.grid : QGridLayout = None
     def initUI(self, formTitle,topMargin=0,bottomMargin=0):
         grid = QGridLayout()
         grid.setSpacing(10)

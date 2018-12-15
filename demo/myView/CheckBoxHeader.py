@@ -1,6 +1,8 @@
 from PyQt5.QtCore import pyqtSignal, Qt, QRect
 from PyQt5.QtWidgets import QHeaderView, QStyleOptionButton, QStyle
 
+from demo.myView import FileTableModel
+
 
 class CheckBoxHeader(QHeaderView):
     clicked = pyqtSignal(bool)
@@ -36,12 +38,19 @@ class CheckBoxHeader(QHeaderView):
         if 0 == index:
             x = self.sectionPosition(index)
             if x + self._x_offset < event.pos().x() < x + self._x_offset + self._width and self._y_offset < event.pos().y() < self._y_offset + self._height:
+                model : FileTableModel = self.parent().model
+                rowCount = self.parent().model.rowCount()
+                model.beginResetModel()
                 if self.isOn:
                     self.isOn = False
+                    model.checkList = [False] * rowCount
                 else:
                     self.isOn = True
+
+                    model.checkList = [True] * rowCount
+                model.endResetModel()
                 self.clicked.emit(self.isOn)
                 self.update()
         else:
-            self.parent().model.sortByField(index)
+            self.parent().model.sortByField(index - 1)
         super(CheckBoxHeader, self).mousePressEvent(event)

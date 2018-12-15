@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
 
-import platform
-
-import math
-
 import os
 import shutil
 
-from PyQt5.QtCore import (QAbstractTableModel, QDataStream, QFile,
-        QIODevice, QModelIndex,QVariant, Qt,pyqtSignal)
-from PyQt5.QtGui import QColor
-from PyQt5.QtWidgets import QApplication, QFileDialog
+from PyQt5.QtCore import (QAbstractTableModel, QModelIndex, QVariant, Qt, pyqtSignal)
+from PyQt5.QtWidgets import QFileDialog
 
-from demo.Field import Field
-from functions import fileSizeConvertToFitUnit, timestampConvertToString, openFile
+from core.Field import Field
+from GUI.public.functions import openFile
 
 FILENAME, DIR, FILE_SIZE, CREATED_DATE, UPDATED_DATE, ACCESS_DATE = range(6)
 

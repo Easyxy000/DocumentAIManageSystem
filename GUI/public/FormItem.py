@@ -1,5 +1,3 @@
-from functions import config
-import time
 class FormItem:
       def __init__(self, widget, getVal=None, id=None, col=1,row=1):
         self.widget = widget

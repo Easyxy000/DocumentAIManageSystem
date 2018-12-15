@@ -1,8 +1,5 @@
-from PyQt5.QtWidgets import QWidget, QLineEdit, QPushButton, QLabel
-
-from functions import config
-
-
+from PyQt5.QtWidgets import QWidget, QPushButton, QLabel
+from GUI.public.functions import config
 class TopBar(QWidget):
     def __init__(self, parent, size):
         super().__init__(parent)

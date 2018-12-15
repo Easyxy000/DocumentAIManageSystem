@@ -1,12 +1,7 @@
-import sys
-from PyQt5.QtWidgets import QHBoxLayout, QVBoxLayout, QApplication, QWidget, QCalendarWidget, QLabel, QDialog, \
-    QPushButton, QDesktopWidget, QGridLayout, QDialogButtonBox
+from PyQt5.QtWidgets import QHBoxLayout, QVBoxLayout, QCalendarWidget, QLabel, QDialog, \
+    QPushButton, QDesktopWidget
 from PyQt5.QtCore import QDate
 from PyQt5.Qt import Qt
-
-from functions import config
-
-
 class DatePickerDialog(QDialog):
     def __init__(self):
         super().__init__()

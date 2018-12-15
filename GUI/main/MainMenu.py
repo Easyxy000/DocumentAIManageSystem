@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QWidget, QLabel
 from PyQt5.Qt import Qt, QRect
-from functions import config
+from GUI.public.functions import config
 from GUI.main.EventSystem import eventSystem
 class MenuItem(QLabel):
     def __init__(self, parent, name, id, defaultTab=None):

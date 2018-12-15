@@ -1,18 +1,15 @@
 from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import QWidget
-
+from GUI.classify.ImageClassify.ClassifyImageTab import ClassifyImageTab
 from GUI.classify.imageCluster.ImageClusterTab import ImageClusterTab
 from GUI.classify.textClassify.ClassifyTextTab import ClassifyTextTab
 from GUI.classify.textCluster.ClusterTextTab import ClusterTextTab
 from GUI.search.similar.SimilarImageSearchTab import SimilarImageSearchTab
 from GUI.search.normal.NormalFileSearchTab import NormalFileSearchTab
 from GUI.repeatDetect.MainContentTabCheck import MainContentTabCheck
-
 from GUI.main.EventSystem import eventSystem
 from GUI.setting.SettingTab import SettingTab
-from functions import config
-
-
+from GUI.public.functions import config
 class MainContent(QWidget):
     def __init__(self, parent, size, initId):
         super().__init__(parent)
@@ -23,6 +20,7 @@ class MainContent(QWidget):
             "similarImageSearch": SimilarImageSearchTab,
             "repeatDetect" : MainContentTabCheck,
             "textClassify" : ClassifyTextTab,
+            "imageClassify": ClassifyImageTab,
             "textCluster": ClusterTextTab,
             "imageCluster" : ImageClusterTab,
             "setting": SettingTab,
@@ -32,6 +30,7 @@ class MainContent(QWidget):
             "similarImageSearch": "search",
             "normalSearch" : "search",
             "textClassify" : "classify",
+            "imageClassify" : "classify",
             "textCluster" : "classify",
             "imageCluster" : "classify"
         }

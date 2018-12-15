@@ -2,210 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="772357d3-f7f1-49a3-bc8f-fdb654d36758" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/imageCluster/FormPanel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/imageCluster/ImageClusterTab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/textClassify/ClassifyTextTab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/textClassify/FormPanel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/textClassify/ResultPanel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/textCluster/ClusterTextTab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/textCluster/FormPanel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/textCluster/ResultPanel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/repeatDetect/MainContentTabCheck.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/setting/FormPanel.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/setting/SettingTab.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/23.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/24.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/25.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/26.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/27.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/28.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/29.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/30.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/31.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/32.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/33.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/34.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/35.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/36.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/37.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/38.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/39.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/40.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/41.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/42.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/43.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/44.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/45.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/46.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/47.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/48.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/49.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/50.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/51.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/52.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/53.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/54.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/imageCluster/55.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/thumb/similar/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/TextCluster.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/TextClusterThread.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/images/ImageClusterAutoK.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/images/cnn.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/ImageClassify/ClassifyImageTab.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/ImageClassify/FormPanel.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GUI/classify/ImageClassify/ResultPanel.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/demo/images/SimilarImageSearch.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/demo/images/harris.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/GUI/DropBar.py" afterPath="$PROJECT_DIR$/GUI/main/DropBar.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/EventSystem.py" afterPath="$PROJECT_DIR$/GUI/main/EventSystem.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/MainContent.py" afterPath="$PROJECT_DIR$/GUI/main/MainContent.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/MainContentTab.py" afterPath="$PROJECT_DIR$/GUI/main/MainContentTab.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/MainMenu.py" afterPath="$PROJECT_DIR$/GUI/main/MainMenu.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/MainWindow.py" afterPath="$PROJECT_DIR$/GUI/main/MainWindow.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/TopBar.py" afterPath="$PROJECT_DIR$/GUI/main/TopBar.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/bottomBar.py" afterPath="$PROJECT_DIR$/GUI/main/BottomBar.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/check/MainContentTabCheck.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/ActionDelegate.py" afterPath="$PROJECT_DIR$/GUI/public/ActionDelegate.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/CheckBoxHeader.py" afterPath="$PROJECT_DIR$/GUI/public/CheckBoxHeader.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/DateLineEdit.py" afterPath="$PROJECT_DIR$/GUI/public/DateLineEdit.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/DatePickerDialog.py" afterPath="$PROJECT_DIR$/GUI/public/DatePickerDialog.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/FileTableModel.py" afterPath="$PROJECT_DIR$/GUI/public/FileTableModel.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/FormItem.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/FormTable.py" afterPath="$PROJECT_DIR$/GUI/public/AbstractFormPanel.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/ImageButton.py" afterPath="$PROJECT_DIR$/GUI/public/ImageButton.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/TableView.py" afterPath="$PROJECT_DIR$/GUI/public/AbstractResultPanel.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/ThumbDelegate.py" afterPath="$PROJECT_DIR$/GUI/public/ThumbDelegate.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/components/fileView/fileView.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/GUI/fileViewTest.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/GUI/index/MainContentTabIndex.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/GUI/search/MainContentTabSearch.py" afterPath="$PROJECT_DIR$/GUI/search/normal/NormalFileSearchTab.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/search/SearchResult.py" afterPath="$PROJECT_DIR$/GUI/search/normal/ResultPanel.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/search/SimilarImageSearch.py" afterPath="$PROJECT_DIR$/GUI/search/similar/SimilarImageSearchTab.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/search/SimilarSearchResult.py" afterPath="$PROJECT_DIR$/GUI/search/similar/ResultPanel.py" />
-      <change beforePath="$PROJECT_DIR$/GUI/setting/MainContentTabSetting.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/BUNDLE-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/0.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/GUI/classify/imageCluster/FormPanel.py" afterPath="$PROJECT_DIR$/GUI/classify/imageCluster/FormPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/classify/imageCluster/ImageClusterTab.py" afterPath="$PROJECT_DIR$/GUI/classify/imageCluster/ImageClusterTab.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py" afterPath="$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/classify/textClassify/FormPanel.py" afterPath="$PROJECT_DIR$/GUI/classify/textClassify/FormPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/classify/textClassify/ResultPanel.py" afterPath="$PROJECT_DIR$/GUI/classify/textClassify/ResultPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/classify/textCluster/FormPanel.py" afterPath="$PROJECT_DIR$/GUI/classify/textCluster/FormPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/classify/textCluster/ResultPanel.py" afterPath="$PROJECT_DIR$/GUI/classify/textCluster/ResultPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/main/BottomBar.py" afterPath="$PROJECT_DIR$/GUI/main/BottomBar.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/main/MainContent.py" afterPath="$PROJECT_DIR$/GUI/main/MainContent.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/main/MainContentTab.py" afterPath="$PROJECT_DIR$/GUI/main/MainContentTab.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/main/MainMenu.py" afterPath="$PROJECT_DIR$/GUI/main/MainMenu.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/main/MainWindow.py" afterPath="$PROJECT_DIR$/GUI/main/MainWindow.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/main/TopBar.py" afterPath="$PROJECT_DIR$/GUI/main/TopBar.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/AbstractFormPanel.py" afterPath="$PROJECT_DIR$/GUI/public/AbstractFormPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/AbstractResultPanel.py" afterPath="$PROJECT_DIR$/GUI/public/AbstractResultPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/ActionDelegate.py" afterPath="$PROJECT_DIR$/GUI/public/ActionDelegate.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/CheckBoxHeader.py" afterPath="$PROJECT_DIR$/GUI/public/CheckBoxHeader.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/DateLineEdit.py" afterPath="$PROJECT_DIR$/GUI/public/DateLineEdit.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/DatePickerDialog.py" afterPath="$PROJECT_DIR$/GUI/public/DatePickerDialog.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/FileTableModel.py" afterPath="$PROJECT_DIR$/GUI/public/FileTableModel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/FormItem.py" afterPath="$PROJECT_DIR$/GUI/public/FormItem.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/ImageButton.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/GUI/public/ThumbDelegate.py" afterPath="$PROJECT_DIR$/GUI/public/ThumbDelegate.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/repeatDetect/FormPanel.py" afterPath="$PROJECT_DIR$/GUI/repeatDetect/FormPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/repeatDetect/RepeatChildrenDelegate.py" afterPath="$PROJECT_DIR$/GUI/repeatDetect/RepeatChildrenDelegate.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/repeatDetect/ResultPanel.py" afterPath="$PROJECT_DIR$/GUI/repeatDetect/ResultPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/search/normal/FormPanel.py" afterPath="$PROJECT_DIR$/GUI/search/normal/FormPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/search/normal/NormalFileSearchTab.py" afterPath="$PROJECT_DIR$/GUI/search/normal/NormalFileSearchTab.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/search/normal/ResultPanel.py" afterPath="$PROJECT_DIR$/GUI/search/normal/ResultPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/search/similar/FormPanel.py" afterPath="$PROJECT_DIR$/GUI/search/similar/FormPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/search/similar/ResultPanel.py" afterPath="$PROJECT_DIR$/GUI/search/similar/ResultPanel.py" />
+      <change beforePath="$PROJECT_DIR$/GUI/setting/FormPanel.py" afterPath="$PROJECT_DIR$/GUI/setting/FormPanel.py" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/0.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/0.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/1.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/2.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/3.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/4.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/5.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/6.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/6.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/7.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/7.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/8.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/8.jpg" />
+      <change beforePath="$PROJECT_DIR$/cache/thumb/similar/9.jpg" afterPath="$PROJECT_DIR$/cache/thumb/similar/9.jpg" />
       <change beforePath="$PROJECT_DIR$/configs/GUI.py" afterPath="$PROJECT_DIR$/configs/GUI.py" />
       <change beforePath="$PROJECT_DIR$/configs/globalStyleSheet.py" afterPath="$PROJECT_DIR$/configs/globalStyleSheet.py" />
-      <change beforePath="$PROJECT_DIR$/configs/search.py" afterPath="$PROJECT_DIR$/configs/search.py" />
-      <change beforePath="$PROJECT_DIR$/core/Field.py" afterPath="$PROJECT_DIR$/core/Field.py" />
-      <change beforePath="$PROJECT_DIR$/core/FileSearch.py" afterPath="$PROJECT_DIR$/core/FileSearch.py" />
-      <change beforePath="$PROJECT_DIR$/core/FormHandlers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/SearchThread.py" afterPath="$PROJECT_DIR$/core/SearchThread.py" />
+      <change beforePath="$PROJECT_DIR$/core/ImageCluster.py" afterPath="$PROJECT_DIR$/core/ImageCluster.py" />
+      <change beforePath="$PROJECT_DIR$/core/RepeatFileSearch.py" afterPath="$PROJECT_DIR$/core/RepeatFileSearch.py" />
+      <change beforePath="$PROJECT_DIR$/core/SimilarImageSearch.py" afterPath="$PROJECT_DIR$/core/SimilarImageSearch.py" />
       <change beforePath="$PROJECT_DIR$/core/SimilarImageSearchThread.py" afterPath="$PROJECT_DIR$/core/SimilarImageSearchThread.py" />
-      <change beforePath="$PROJECT_DIR$/core/SimilarImageSearcher.py" afterPath="$PROJECT_DIR$/core/SimilarImageSearch.py" />
-      <change beforePath="$PROJECT_DIR$/demo/BoxLayoutDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/ButtonDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/Field.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/FormDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/ImageButtoDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/ImageButtonDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/MyFileTableDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/MyFileViewDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/MyTreeViewModelDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/NormalRepeatFileSearch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/RepeatFileSearchByFileSize.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/RepeatFileSearchByFileSizeAndExt.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/RepeatFileSearchByFileSizeAndExtSupportDir.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/SearchResultThreadDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/TableAddButtonDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/avg/climbing_1_smallw560h800.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/avg/empirew560h800.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/avg/sunsetw560h800.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/centerWindow.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/chooseFileDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/clickDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/datePickerDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/datePickerDialogDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/fileDialog.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/fileTreeDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/images/test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/images/xgboostPredict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/inputDialogDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/mouseMoveDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myDialogDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myView/ActionDelegate.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myView/CheckBoxHeader.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myView/CheckedDelegate.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myView/FileTableModel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myView/MyTreeView.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myView/ViewDelegate.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myView/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/myView/mainForm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/repeatFileSearchDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/searchDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/shipModelDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/shipViewDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/siftDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/similarImageSearcher.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo/threadDemo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/functions.py" afterPath="$PROJECT_DIR$/functions.py" />
-      <change beforePath="$PROJECT_DIR$/images/menu/check.png" afterPath="$PROJECT_DIR$/images/menu/repeatDetect.png" />
-      <change beforePath="$PROJECT_DIR$/images/menu/format.png" afterPath="$PROJECT_DIR$/images/menu/classify.png" />
-      <change beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change beforePath="$PROJECT_DIR$/main.spec" afterPath="$PROJECT_DIR$/main.spec" />
-      <change beforePath="$PROJECT_DIR$/panoimages/0.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/13336144.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/13512111.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/15440152.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/1615287.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/1615311.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/17651545.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/17651631.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/17651671.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/17651715.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/23569349.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/31182283.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/3128351.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/3725907.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/42746486.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/42748461.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/4302047.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/43112658.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/5752686.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/588922.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/panoimages/9309411.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo/images/ImageClusterAutoK.py" afterPath="$PROJECT_DIR$/demo/images/ImageClusterAutoK.py" />
+      <change beforePath="$PROJECT_DIR$/demo/images/SVCPredict.py" afterPath="$PROJECT_DIR$/demo/images/SVCPredict.py" />
+      <change beforePath="$PROJECT_DIR$/demo/myView/CheckBoxHeader.py" afterPath="$PROJECT_DIR$/demo/myView/CheckBoxHeader.py" />
+      <change beforePath="$PROJECT_DIR$/demo/myView/FileTableModel.py" afterPath="$PROJECT_DIR$/demo/myView/FileTableModel.py" />
+      <change beforePath="$PROJECT_DIR$/demo/myView/mainForm.py" afterPath="$PROJECT_DIR$/demo/myView/mainForm.py" />
+      <change beforePath="$PROJECT_DIR$/demo/search/repeatFileSearchDemo.py" afterPath="$PROJECT_DIR$/demo/search/repeatFileSearchDemo.py" />
+      <change beforePath="$PROJECT_DIR$/demo/search/similarImageSearcher.py" afterPath="$PROJECT_DIR$/demo/search/similarImageSearcher.py" />
+      <change beforePath="$PROJECT_DIR$/functions.py" afterPath="$PROJECT_DIR$/GUI/public/functions.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -226,12 +84,13 @@
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$shipModelDemo.coverage" NAME="shipModelDemo Coverage Results" MODIFIED="1543797100621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$threadDemo.coverage" NAME="threadDemo Coverage Results" MODIFIED="1543908418702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$listDemo.coverage" NAME="listDemo Coverage Results" MODIFIED="1544577179969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/guis" />
-    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$fileViewTest.coverage" NAME="fileViewTest Coverage Results" MODIFIED="1544006791784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$fileViewTest.coverage" NAME="fileViewTest Coverage Results" MODIFIED="1544865116809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$horizentalLayoutDemo.coverage" NAME="horizentalLayoutDemo Coverage Results" MODIFIED="1542076244601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$inputDialogDemo.coverage" NAME="inputDialogDemo Coverage Results" MODIFIED="1543031663293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1544336028514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myView" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$ImageClassify.coverage" NAME="ImageClassify Coverage Results" MODIFIED="1544692437272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1544865964028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myView" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$projectRootTest.coverage" NAME="projectRootTest Coverage Results" MODIFIED="1544338748980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$main.coverage" NAME="main Coverage Results" MODIFIED="1544621505804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$main.coverage" NAME="main Coverage Results" MODIFIED="1544884953888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$MyFileViewDemo.coverage" NAME="MyFileViewDemo Coverage Results" MODIFIED="1543979335168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$searchDemo.coverage" NAME="searchDemo Coverage Results" MODIFIED="1543908089298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$datePickerDemo.coverage" NAME="datePickerDemo Coverage Results" MODIFIED="1543031652976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
@@ -243,7 +102,7 @@
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$clickDemo.coverage" NAME="clickDemo Coverage Results" MODIFIED="1544008881962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$k_means_demo.coverage" NAME="k-means-demo Coverage Results" MODIFIED="1544508164520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/images" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$MyTreeViewModelDemo.coverage" NAME="MyTreeViewModelDemo Coverage Results" MODIFIED="1543975076962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$repeatFileSearchDemo.coverage" NAME="repeatFileSearchDemo Coverage Results" MODIFIED="1544326474860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$repeatFileSearchDemo.coverage" NAME="repeatFileSearchDemo Coverage Results" MODIFIED="1544863621426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/search" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$datePickerDialogDemo.coverage" NAME="datePickerDialogDemo Coverage Results" MODIFIED="1543032272282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$TreeViewDemo.coverage" NAME="TreeViewDemo Coverage Results" MODIFIED="1543756391323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$ImageButton.coverage" NAME="ImageButton Coverage Results" MODIFIED="1543824532600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/components" />
@@ -251,15 +110,16 @@
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$myDialogDemo.coverage" NAME="myDialogDemo Coverage Results" MODIFIED="1543031674747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$mouseMoveDemo.coverage" NAME="mouseMoveDemo Coverage Results" MODIFIED="1542196117869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$TableAddButtonDemo.coverage" NAME="TableAddButtonDemo Coverage Results" MODIFIED="1543980191041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$SimilarImageSearch.coverage" NAME="SimilarImageSearch Coverage Results" MODIFIED="1544180726923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/search" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$SimilarImageSearch.coverage" NAME="SimilarImageSearch Coverage Results" MODIFIED="1544671875416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/images" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1544402414801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/configs" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$dialogDemo.coverage" NAME="dialogDemo Coverage Results" MODIFIED="1544880334926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/guis" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$fileTreeDemo.coverage" NAME="fileTreeDemo Coverage Results" MODIFIED="1544318849190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$sift.coverage" NAME="sift Coverage Results" MODIFIED="1544575479971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$siftDemo.coverage" NAME="siftDemo Coverage Results" MODIFIED="1544166448562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$shipViewDemo.coverage" NAME="shipViewDemo Coverage Results" MODIFIED="1543847212873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$xgboostPredict.coverage" NAME="xgboostPredict Coverage Results" MODIFIED="1544574002225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/images" />
-    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$mainForm.coverage" NAME="mainForm Coverage Results" MODIFIED="1544009281456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myView" />
-    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$SVCPredict.coverage" NAME="SVCPredict Coverage Results" MODIFIED="1544576608693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/images" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$SVCPredict.coverage" NAME="SVCPredict Coverage Results" MODIFIED="1544691618972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/images" />
+    <SUITE FILE_PATH="coverage/DocumentAIManageSystem$mainForm.coverage" NAME="mainForm Coverage Results" MODIFIED="1544865167631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myView" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$ImageButtonDemo.coverage" NAME="ImageButtonDemo Coverage Results" MODIFIED="1542078579639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$SimilarImageSearch2.coverage" NAME="SimilarImageSearch2 Coverage Results" MODIFIED="1544574158981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/images" />
     <SUITE FILE_PATH="coverage/DocumentAIManageSystem$text_classification.coverage" NAME="text_classification Coverage Results" MODIFIED="1544415957214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/text" />
@@ -288,131 +148,117 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ResultPanel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/search/normal/ResultPanel.py">
+        <entry file="file://$PROJECT_DIR$/GUI/classify/textCluster/ResultPanel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+            <state relative-caret-position="442">
+              <caret line="40" column="36" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="40" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultPanel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#1703#1806#0" expanded="false" />
-                <element signature="e#2161#2310#0" expanded="false" />
-                <element signature="e#2590#2645#0" expanded="false" />
-                <element signature="e#2991#3163#0" expanded="false" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FormPanel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/search/normal/FormPanel.py">
+        <entry file="file://$PROJECT_DIR$/GUI/classify/imageCluster/FormPanel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="138" column="8" lean-forward="false" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-                <element signature="e#1008#1616#0" expanded="false" />
-                <element signature="e#1660#2407#0" expanded="false" />
-                <element signature="e#2447#3109#0" expanded="false" />
-                <element signature="e#3154#3292#0" expanded="false" />
-                <element signature="e#3333#4020#0" expanded="false" />
-                <element signature="e#4068#4747#0" expanded="false" />
-                <element signature="e#4828#4972#0" expanded="false" />
-                <element signature="e#5019#5023#0" expanded="false" />
-                <element signature="e#5887#6141#0" expanded="false" />
-                <element signature="e#6177#8102#0" expanded="false" />
-                <element signature="e#8627#9013#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractResultPanel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/public/AbstractResultPanel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-              <folding>
-                <element signature="e#2140#3090#0" expanded="false" />
-                <element signature="e#3127#3131#0" expanded="false" />
-                <element signature="e#3164#3550#0" expanded="false" />
-                <element signature="e#3625#4046#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainContentTab.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/main/MainContentTab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NormalFileSearchTab.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/search/normal/NormalFileSearchTab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSearch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/FileSearch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="-152">
+              <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="File.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/File.py">
+      <file leaf-file-name="FormPanel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/classify/textCluster/FormPanel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configs/GUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BottomBar.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GUI/main/BottomBar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#673#813#0" expanded="false" />
+                <element signature="e#852#922#0" expanded="false" />
+                <element signature="e#957#1046#0" expanded="false" />
+                <element signature="e#1855#1946#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configs/search.py">
+      <file leaf-file-name="FormPanel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/classify/textClassify/FormPanel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="733">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="73" selection-end-column="67" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultPanel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/classify/ImageClassify/ResultPanel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormPanel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/classify/ImageClassify/FormPanel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="73" column="42" lean-forward="false" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultPanel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/classify/textClassify/ResultPanel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="37" column="34" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="37" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialogDemo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/guis/dialogDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="37" column="51" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractFormPanel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/public/AbstractFormPanel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="84" />
+              <folding>
+                <element signature="e#1313#1458#0" expanded="false" />
+                <element signature="e#1499#1503#0" expanded="false" />
+                <element signature="e#1585#2863#0" expanded="false" />
+                <element signature="e#2895#3354#0" expanded="false" />
+                <element signature="e#4385#4394#0" expanded="false" />
+                <element signature="e#4449#4509#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -450,6 +296,8 @@
       <find>QTableViewDelegate</find>
       <find>tableViewPrimaryBtn</find>
       <find>QtGui.</find>
+      <find>cluster</find>
+      <find>setTextClassifyName</find>
     </findStrings>
     <replaceStrings>
       <replace>self</replace>
@@ -459,6 +307,7 @@
       <replace>to</replace>
       <replace>triggerFormPanel</replace>
       <replace>triggerResultPanel</replace>
+      <replace>Classify</replace>
     </replaceStrings>
     <dirStrings>
       <dir>/anaconda3/envs/py36/lib/python3.6</dir>
@@ -472,57 +321,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GUI/public/ResultPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/repeatDetect/FormPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/repeatDetect/ResultPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/public/AbstractFormPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/main/MainContentTab.py" />
-        <option value="$PROJECT_DIR$/GUI/main/EventSystem.py" />
-        <option value="$PROJECT_DIR$/GUI/setting/SettingTab.py" />
-        <option value="$PROJECT_DIR$/core/SearchThread.py" />
-        <option value="$PROJECT_DIR$/GUI/main/MainMenu.py" />
-        <option value="$PROJECT_DIR$/GUI/public/ActionDelegate.py" />
-        <option value="$PROJECT_DIR$/GUI/search/similar/FormPanel.py" />
-        <option value="$PROJECT_DIR$/configs/globalStyleSheet.py" />
-        <option value="$PROJECT_DIR$/core/Field.py" />
-        <option value="$PROJECT_DIR$/GUI/search/similar/ResultPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/setting/FormPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/public/DateLineEdit.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/imageCluster/ImageClusterTab.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/text/FormPanel.py" />
-        <option value="$PROJECT_DIR$/core/SimilarImageSearch.py" />
-        <option value="$PROJECT_DIR$/GUI/public/FileTableModel.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/text/ResultPanel.py" />
-        <option value="$PROJECT_DIR$/core/TextClassify.py" />
-        <option value="$PROJECT_DIR$/GUI/main/TopBar.py" />
-        <option value="$PROJECT_DIR$/demo/images/cnn.py" />
-        <option value="$PROJECT_DIR$/demo/images/ImageClusterAutoK.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/textCluster/ClusterTextTab.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/textClassify/ResultPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/main/MainContent.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/textCluster/FormPanel.py" />
-        <option value="$PROJECT_DIR$/core/TextClusterThread.py" />
-        <option value="$PROJECT_DIR$/core/TextCluster.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/textCluster/ResultPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/textClassify/FormPanel.py" />
-        <option value="$PROJECT_DIR$/demo/images/xgboostPredict.py" />
-        <option value="$PROJECT_DIR$/demo/images/SimilarImageSearch2.py" />
-        <option value="$PROJECT_DIR$/demo/images/SVCPredict.py" />
-        <option value="$PROJECT_DIR$/core/sift.py" />
-        <option value="$PROJECT_DIR$/demo/guis/listDemo.py" />
-        <option value="$PROJECT_DIR$/demo/guis/MyList.py" />
-        <option value="$PROJECT_DIR$/core/ImageCluster.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py" />
-        <option value="$PROJECT_DIR$/GUI/classify/imageCluster/FormPanel.py" />
-        <option value="$PROJECT_DIR$/core/ImageClusterThread.py" />
-        <option value="$PROJECT_DIR$/GUI/public/FormItem.py" />
-        <option value="$PROJECT_DIR$/core/File.py" />
         <option value="$PROJECT_DIR$/core/FileSearch.py" />
-        <option value="$PROJECT_DIR$/GUI/search/normal/FormPanel.py" />
         <option value="$PROJECT_DIR$/configs/search.py" />
-        <option value="$PROJECT_DIR$/GUI/public/AbstractResultPanel.py" />
         <option value="$PROJECT_DIR$/GUI/search/normal/ResultPanel.py" />
+        <option value="$PROJECT_DIR$/core/ImageCluster.py" />
+        <option value="$PROJECT_DIR$/demo/images/SimilarImageSearch.py" />
+        <option value="$PROJECT_DIR$/demo/images/SVCPredict.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/ImageClassify/ClassifyImageTab.py" />
+        <option value="$PROJECT_DIR$/core/ImageClassifyThread.py" />
+        <option value="$PROJECT_DIR$/core/ImageClassify.py" />
         <option value="$PROJECT_DIR$/configs/GUI.py" />
+        <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/GUI/public/FormItem.py" />
+        <option value="$PROJECT_DIR$/GUI/public/ActionDelegate.py" />
+        <option value="$PROJECT_DIR$/GUI/public/DatePickerDialog.py" />
+        <option value="$PROJECT_DIR$/GUI/public/ThumbDelegate.py" />
+        <option value="$PROJECT_DIR$/GUI/main/MainContent.py" />
+        <option value="$PROJECT_DIR$/GUI/main/MainContentTab.py" />
+        <option value="$PROJECT_DIR$/GUI/main/MainWindow.py" />
+        <option value="$PROJECT_DIR$/GUI/main/TopBar.py" />
+        <option value="$PROJECT_DIR$/GUI/search/normal/NormalFileSearchTab.py" />
+        <option value="$PROJECT_DIR$/core/RepeatFileSearch.py" />
+        <option value="$PROJECT_DIR$/GUI/main/MainMenu.py" />
+        <option value="$PROJECT_DIR$/configs/globalStyleSheet.py" />
+        <option value="$PROJECT_DIR$/GUI/public/DateLineEdit.py" />
+        <option value="$PROJECT_DIR$/demo/search/repeatFileSearchDemo.py" />
+        <option value="$PROJECT_DIR$/GUI/public/AbstractResultPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/repeatDetect/RepeatChildrenDelegate.py" />
+        <option value="$PROJECT_DIR$/demo/myView/FileTableModel.py" />
+        <option value="$PROJECT_DIR$/demo/myView/mainForm.py" />
+        <option value="$PROJECT_DIR$/demo/myView/CheckBoxHeader.py" />
+        <option value="$PROJECT_DIR$/GUI/public/CheckBoxHeader.py" />
+        <option value="$PROJECT_DIR$/GUI/repeatDetect/ResultPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/search/normal/FormPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/repeatDetect/FormPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/public/AbstractFormPanel.py" />
+        <option value="$PROJECT_DIR$/core/WorkThreadBlocked.py" />
+        <option value="$PROJECT_DIR$/core/SimilarImageSearchThread.py" />
+        <option value="$PROJECT_DIR$/GUI/search/similar/ResultPanel.py" />
+        <option value="$PROJECT_DIR$/core/SimilarImageSearch.py" />
+        <option value="$PROJECT_DIR$/GUI/search/similar/FormPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/textClassify/FormPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/textClassify/ResultPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/ImageClassify/FormPanel.py" />
+        <option value="$PROJECT_DIR$/demo/guis/dialogDemo.py" />
+        <option value="$PROJECT_DIR$/GUI/public/functions.py" />
+        <option value="$PROJECT_DIR$/GUI/public/FileTableModel.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/textCluster/ResultPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/ImageClassify/ResultPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/imageCluster/FormPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/textCluster/FormPanel.py" />
+        <option value="$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py" />
       </list>
     </option>
   </component>
@@ -532,10 +381,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="729" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -569,8 +418,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -581,17 +430,58 @@
             <path>
               <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="guis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
               <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="classify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="classify" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageClassify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="classify" type="462c0819:PsiDirectoryNode" />
+              <item name="imageCluster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="classify" type="462c0819:PsiDirectoryNode" />
+              <item name="textClassify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="classify" type="462c0819:PsiDirectoryNode" />
+              <item name="textCluster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -604,7 +494,7 @@
               <item name="DocumentAIManageSystem" type="462c0819:PsiDirectoryNode" />
               <item name="GUI" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="similar" type="462c0819:PsiDirectoryNode" />
+              <item name="normal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocumentAIManageSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -630,17 +520,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GUI/public" />
       <recent name="$PROJECT_DIR$/GUI/classify" />
       <recent name="$PROJECT_DIR$/demo" />
       <recent name="$PROJECT_DIR$/GUI/classify/text" />
-      <recent name="$PROJECT_DIR$/GUI/public" />
       <recent name="$PROJECT_DIR$/GUI/repeatDetect" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/demo/guis" />
-      <recent name="$PROJECT_DIR$/demo/images" />
       <recent name="$PROJECT_DIR$/core" />
       <recent name="$PROJECT_DIR$/GUI/classify" />
+      <recent name="$PROJECT_DIR$/demo/images" />
+      <recent name="$PROJECT_DIR$/demo/guis" />
       <recent name="$PROJECT_DIR$/demo" />
     </key>
   </component>
@@ -656,27 +546,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="ImageCluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="challenge" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/ImageCluster.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="MyList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dialogDemo">
+    <configuration name="dialogDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -689,45 +560,45 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="challenge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/guis/MyList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/guis/dialogDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="SVCPredict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fileViewTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/images" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="challenge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/images/SVCPredict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/fileViewTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="listDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/guis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/myView" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="challenge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/guis/listDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/myView/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -752,20 +623,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="mainForm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/myView" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="challenge" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/myView/mainForm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.SVCPredict" />
-      <item index="1" class="java.lang.String" itemvalue="Python.listDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.MyList" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ImageCluster" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fileViewTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mainForm" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dialogDemo" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ImageCluster" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MyList" />
-        <item index="3" class="java.lang.String" itemvalue="Python.listDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.SVCPredict" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dialogDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mainForm" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fileViewTest" />
       </list>
     </recent_temporary>
   </component>
@@ -795,23 +685,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="729" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47665057" sideWeight="0.32229403" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36908516" sideWeight="0.677706" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36876008" sideWeight="0.33037156" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3188406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36876008" sideWeight="0.66962844" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32471728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36268175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252818" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5420032" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39291465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39291465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -831,9 +722,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="282" />
+          <url>file://$PROJECT_DIR$/core/ImageClassifyThread.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/myView/CheckBoxHeader.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="304" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -843,193 +739,268 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="288" />
+      <option name="time" value="307" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GUI/classify/textClassify/ResultPanel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/images/k-means-demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/TextCluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/images/xgboostPredict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/numpy/lib/_datasource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="617" column="0" lean-forward="false" selection-start-line="617" selection-start-column="0" selection-end-line="617" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/images/SimilarImageSearch2.py" />
-    <entry file="file://$PROJECT_DIR$/configs/configs.py">
+    <entry file="file://$PROJECT_DIR$/GUI/main/BottomBar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Field.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ImageCluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/main/MainMenu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/main/MainContentTab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/main/MainContent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/guis/myDialogDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="64" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/main/TopBar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/main/MainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/images/tmp.pgm" />
-    <entry file="file://$PROJECT_DIR$/demo/images/test.py">
+    <entry file="file://$PROJECT_DIR$/configs/globalStyleSheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
+    <entry file="file://$PROJECT_DIR$/GUI/public/DateLineEdit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/search/repeatFileSearchDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/RepeatFileSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/repeatDetect/RepeatChildrenDelegate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/FileSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/py36/lib/python3.6/site-packages/PyQt5/QtWidgets.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="508" column="0" lean-forward="true" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/myView/MyTreeView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/myView/mainForm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
           <folding>
-            <element signature="e#0#10#0" expanded="false" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/images/SVCPredict.py">
+    <entry file="file://$PROJECT_DIR$/demo/myView/CheckedDelegate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/sift.py" />
-    <entry file="file://$PROJECT_DIR$/GUI/public/CheckBoxHeader.py">
+    <entry file="file://$PROJECT_DIR$/demo/myView/CheckBoxHeader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/public/FileTableModel.py">
+    <entry file="file://$PROJECT_DIR$/GUI/public/CheckBoxHeader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1498">
-          <caret line="113" column="18" lean-forward="true" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+        <state relative-caret-position="780">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/myView/FileTableModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/search/normal/NormalFileSearchTab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/guis/listDemo.py" />
+    <entry file="file://$PROJECT_DIR$/GUI/search/normal/ResultPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/repeatDetect/ResultPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GUI/repeatDetect/FormPanel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/thumb/similar/5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/thumb/similar/0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/thumb/similar/2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/thumb/similar/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/thumb/similar/4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/thumb/similar/9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/thumb/similar/7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/thumb/similar/6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/guis/MyList.py" />
-    <entry file="file://$PROJECT_DIR$/configs/globalStyleSheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/classify/textCluster/FormPanel.py">
+    <entry file="file://$PROJECT_DIR$/core/WorkThreadBlocked.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="60" column="28" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/classify/textClassify/FormPanel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/envs/py36/lib/python3.6/site-packages/PIL/Image.py">
+    <entry file="file://$PROJECT_DIR$/core/SimilarImageSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29400">
-          <caret line="1965" column="0" lean-forward="false" selection-start-line="1965" selection-start-column="0" selection-end-line="1965" selection-end-column="0" />
+        <state relative-caret-position="563">
+          <caret line="48" column="53" lean-forward="false" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/TextClusterThread.py">
+    <entry file="file://$PROJECT_DIR$/core/SimilarImageSearchThread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py">
+    <entry file="file://$PROJECT_DIR$/GUI/search/similar/ResultPanel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#0#54#0" expanded="false" />
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/classify/ImageClassify/ClassifyImageTab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1037,202 +1008,190 @@
     <entry file="file://$PROJECT_DIR$/GUI/classify/imageCluster/ImageClusterTab.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
           <folding>
             <element signature="e#0#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/envs/py36/lib/python3.6/site-packages/PyQt5/QtCore.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="7250" column="8" lean-forward="false" selection-start-line="7250" selection-start-column="8" selection-end-line="7250" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/SimilarImageSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-          <folding>
-            <element signature="e#201#520#0" expanded="false" />
-            <element signature="e#559#738#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/TextClassifyThread.py">
+    <entry file="file://$PROJECT_DIR$/GUI/classify/textClassify/ClassifyTextTab.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ImageCluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="102" column="17" lean-forward="false" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
           <folding>
-            <element signature="e#25#46#0" expanded="false" />
-            <element signature="e#3056#3372#0" expanded="false" />
-            <element signature="e#3433#3831#0" expanded="false" />
+            <element signature="e#0#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/ImageClusterThread.py">
+    <entry file="file://$PROJECT_DIR$/GUI/search/similar/FormPanel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/classify/imageCluster/FormPanel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
           <folding>
-            <element signature="e#1004#1093#0" expanded="false" />
-            <element signature="e#1280#1449#0" expanded="false" />
-            <element signature="e#1479#1570#0" expanded="false" />
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/public/FormItem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="68" lean-forward="false" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/public/AbstractFormPanel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/main/MainContent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/main/MainContentTab.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/search/normal/NormalFileSearchTab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/File.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/FileSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/public/AbstractResultPanel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        <state relative-caret-position="45">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <element signature="e#2140#3090#0" expanded="false" />
-            <element signature="e#3127#3131#0" expanded="false" />
-            <element signature="e#3164#3550#0" expanded="false" />
-            <element signature="e#3625#4046#0" expanded="false" />
+            <element signature="e#2975#2979#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/public/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="82" column="19" lean-forward="false" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/public/FileTableModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="156" column="30" lean-forward="true" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
+          <folding>
+            <element signature="e#23#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI/search/normal/FormPanel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="138" column="8" lean-forward="false" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
+        <state relative-caret-position="29">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#1008#1616#0" expanded="false" />
-            <element signature="e#1660#2407#0" expanded="false" />
-            <element signature="e#2447#3109#0" expanded="false" />
-            <element signature="e#3154#3292#0" expanded="false" />
-            <element signature="e#3333#4020#0" expanded="false" />
-            <element signature="e#4068#4747#0" expanded="false" />
-            <element signature="e#4828#4972#0" expanded="false" />
-            <element signature="e#5019#5023#0" expanded="false" />
-            <element signature="e#5887#6141#0" expanded="false" />
-            <element signature="e#6177#8102#0" expanded="false" />
-            <element signature="e#8627#9013#0" expanded="false" />
+            <element signature="e#1030#1638#0" expanded="false" />
+            <element signature="e#1682#2429#0" expanded="false" />
+            <element signature="e#2469#3131#0" expanded="false" />
+            <element signature="e#3176#3314#0" expanded="false" />
+            <element signature="e#3355#4042#0" expanded="false" />
+            <element signature="e#4090#4769#0" expanded="false" />
+            <element signature="e#4850#4975#0" expanded="false" />
+            <element signature="e#5038#5264#0" expanded="false" />
+            <element signature="e#5311#5315#0" expanded="false" />
+            <element signature="e#5347#5767#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/search/normal/ResultPanel.py">
+    <entry file="file://$PROJECT_DIR$/GUI/public/AbstractFormPanel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+        <state relative-caret-position="373">
+          <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="84" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#1703#1806#0" expanded="false" />
-            <element signature="e#2161#2310#0" expanded="false" />
-            <element signature="e#2590#2645#0" expanded="false" />
-            <element signature="e#2991#3163#0" expanded="false" />
+            <element signature="e#1313#1458#0" expanded="false" />
+            <element signature="e#1499#1503#0" expanded="false" />
+            <element signature="e#1585#2863#0" expanded="false" />
+            <element signature="e#2895#3354#0" expanded="false" />
+            <element signature="e#4385#4394#0" expanded="false" />
+            <element signature="e#4449#4509#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/GUI.py">
+    <entry file="file://$PROJECT_DIR$/demo/guis/dialogDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="95">
+          <caret line="37" column="51" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/main/BottomBar.py">
+    <entry file="file://$PROJECT_DIR$/GUI/classify/textClassify/ResultPanel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="37" column="34" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="37" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/classify/ImageClassify/ResultPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/classify/textCluster/ResultPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/classify/textCluster/FormPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="e#673#813#0" expanded="false" />
+            <element signature="e#852#922#0" expanded="false" />
+            <element signature="e#957#1046#0" expanded="false" />
+            <element signature="e#1855#1946#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/classify/textClassify/FormPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="73" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/classify/ImageClassify/FormPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="73" column="42" lean-forward="false" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/classify/imageCluster/FormPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/classify/imageCluster/ResultPanel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

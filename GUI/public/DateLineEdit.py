@@ -1,9 +1,6 @@
 from PyQt5.QtCore import pyqtSignal, Qt
 from PyQt5.QtWidgets import QLineEdit
-
 from GUI.public.DatePickerDialog import DatePickerDialog
-
-
 class DateLineEdit(QLineEdit):
     clicked = pyqtSignal()
     def __init__(self, clickEvents):
@@ -21,8 +18,8 @@ class DateLineEdit(QLineEdit):
                 else:
                     self.setText("{0}-{1}-{2}".format(date.year(), date.month(), date.day()))
                 self.date = date
-
                 for event in self.clickEvents:
+                    print("call event")
                     event()
     def getDate(self):
         return self.date

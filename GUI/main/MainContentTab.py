@@ -1,9 +1,8 @@
 from PyQt5.QtWidgets import QLabel
-
 from GUI.main.DropBar import DropBar
 from GUI.main.EventSystem import eventSystem
 from GUI.main.TopBar import TopBar
-from functions import config
+from GUI.public.functions import config
 class MainContentTab(QLabel):
     def __init__(self, parent,size, id):
         super().__init__(parent)

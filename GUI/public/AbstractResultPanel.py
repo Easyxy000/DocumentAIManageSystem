@@ -1,15 +1,10 @@
 import math
-
-from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import QTableView, \
     QFrame, QAbstractItemView, QWidget, QGridLayout
-
-from GUI.main.EventSystem import eventSystem
 from GUI.public.CheckBoxHeader import CheckBoxHeader
 from GUI.public.FileTableModel import FileTableModel
 from core.Field import Field
-from functions import fileSizeConvertToFitUnit, timestampConvertToString, getBtn, SUCCESS, WARNING, PRIMARY, DANGER, \
-    DEFAULT
+from GUI.public.functions import *
 BUTTON_GROUP_MAX_COL = 6
 BUTTON_GROUP_HEIGHT_EVERY_ROW = 45
 class AbstractResultPanel(QWidget):
@@ -28,7 +23,7 @@ class AbstractResultPanel(QWidget):
         tableH = size[1] - btnGroupH
         self.tableView = self.createQTableView((size[0], tableH), fields)
 
-        self._createBtnGroup(btns, (size[0], btnGroupH),(0, tableH), col)
+        self.btnGroupWidget = self._createBtnGroup(btns, (size[0], btnGroupH),(0, tableH), col)
 
         self.listenEvents()
     def createModel(self,specialFields, closeFields):
@@ -102,3 +97,4 @@ class AbstractResultPanel(QWidget):
             col += 1
         btnLayout.setSpacing(20)
         btnWidget.setLayout(btnLayout)
+        return btnWidget

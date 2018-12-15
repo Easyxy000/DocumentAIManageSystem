@@ -3,7 +3,7 @@ import os
 from GUI.main.EventSystem import eventSystem
 from GUI.public.AbstractFormPanel import AbstractFormPanel
 from core.TextClassifyThread import TextClassifyThread
-from functions import getBtn, PRIMARY, INFO, SUCCESS
+from GUI.public.functions import getBtn, PRIMARY, INFO
 
 
 class FormPanel(AbstractFormPanel):
@@ -26,15 +26,21 @@ class FormPanel(AbstractFormPanel):
         submitButton = getBtn(PRIMARY, "开始归类整理", self)
         submitButton.clicked.connect(self.classify)
 
-        btn3 = getBtn(SUCCESS, "图像自动分类", self)
-        btn3.clicked.connect(lambda : eventSystem.dispatch("changeTab", "imageCluster"))
+        textClusterBtn = getBtn(INFO, "文本自动分类", self)
+        textClusterBtn.clicked.connect(lambda : eventSystem.dispatch("changeTab", "textCluster"))
+
+        imageClusterBtn = getBtn(INFO, "图像自动归类", self)
+        imageClusterBtn.clicked.connect(lambda: eventSystem.dispatch("changeTab", "imageCluster"))
+
+        imageClassifyBtn = getBtn(INFO, "图像自动分类", self)
+        imageClassifyBtn.clicked.connect(lambda: eventSystem.dispatch("changeTab", "imageClassify"))
 
         self.submitButton = submitButton
         return [
             submitButton,
-            getBtn(INFO, "文本自动分类", self),
-            getBtn(SUCCESS, "图像归类整理", self),
-            btn3,
+            textClusterBtn,
+            imageClassifyBtn,
+            imageClusterBtn
         ]
     def reset(self):
         self.searching = False
@@ -42,7 +48,7 @@ class FormPanel(AbstractFormPanel):
         self.submitButton.setText("重新分类")
     def classify(self):
         if self.searching:
-            eventSystem.dispatch("stopSearch")
+            eventSystem.dispatch("stopTextClassify")
             self.worker.quit()
             self.worker.wait()
             self.reset()
@@ -53,14 +59,19 @@ class FormPanel(AbstractFormPanel):
             self.worker = self._classify(self.getForm())
             self.worker.finishedTrigger.connect(self.reset)
     def _classify(self, rawData):
+        root = rawData["classifyDirs"]
         worker = TextClassifyThread()
-        worker.initialize(rawData["classifyDirs"],[rawData["predictDir"]], ["updatedTime","accessTime"])
+        worker.initialize(root,[rawData["predictDir"]], ["updatedTime","accessTime"])
         worker.start()
-        labelMap = []
-        for item in os.listdir(rawData["classifyDirs"]):
+        classNames = []
+        classDirs = []
+        for item in os.listdir(root):
             if item[0] == ".": continue
-            labelMap.append(item)
-        eventSystem.dispatch("setTextClassifyName", labelMap)
+            p = os.path.join(root, item)
+            if not os.path.isdir(p): continue
+            classNames.append(item)
+            classDirs.append(p)
+        eventSystem.dispatch("setTextClass", classNames, classDirs)
         worker.finishedTrigger.connect(lambda results: eventSystem.dispatch("finishTextClassify", results))
         self.worker = worker
         print("classify!")

@@ -1,11 +1,9 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QWidget, QDesktopWidget, QLabel, QPushButton
-from GUI.main.TopBar import TopBar
 from GUI.main.MainContent import MainContent
 from GUI.main.BottomBar import BottomBar
-from functions import config
+from GUI.public.functions import config
 from GUI.main.MainMenu import MainMenu
-
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()

@@ -5,11 +5,11 @@ from PyQt5.QtWidgets import QDialog, QVBoxLayout, QHBoxLayout, QPushButton, QFra
 
 from GUI.main.EventSystem import eventSystem
 from core.FileSearch import FileSearcher
-from demo.Field import Field
+from core.Field import Field
 from demo.myView.FileTableModel import FileTableModel
 from demo.myView.ActionDelegate import ActionDelegate
 from demo.myView.MyTreeView import MyTreeView
-from functions import fileSizeConvertToFitUnit, timestampConvertToString
+from GUI.public.functions import fileSizeConvertToFitUnit, timestampConvertToString
 
 
 class MainForm(QDialog):
@@ -148,7 +148,9 @@ QTableView::item:hover {
         self.model.insertRow(self.generateItem())
     def initialLoad(self):
         files = []
-        for item in FileSearcher().search("/users/xushaojun/Documents/吉他谱"):
+        searcher = FileSearcher()
+        searcher.setPath("/users/xushaojun/Documents/吉他谱")
+        for item in searcher.search():
             files.append(item)
         self.model.load(files)
         self.resizeColumns()

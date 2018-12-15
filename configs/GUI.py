@@ -1,7 +1,7 @@
 GUI_CONFIGS = {
     'windowSize' : (1000, 680),
     'windowTitle' : '文件智能管理工具',
-    'defaultTab' : 'textCluster',
+    'defaultTab' : 'imageCluster',
 
     'topBorderHeight' : 45,
     'topBorderBtnMarginTop' : 15,
@@ -21,8 +21,6 @@ GUI_CONFIGS = {
     "dropBarWidth": 40,
     "dropBarLeftMargin" : 30,
 
-    # 'mainMenuItemSize': (100, 100),
-    # 'mainMenuIconSize' : (100, 60),
     'mainContentHeight' : 570,
     "mainContentTabMarginBottom" : 10,
     'bottomBarHeight' : 65,

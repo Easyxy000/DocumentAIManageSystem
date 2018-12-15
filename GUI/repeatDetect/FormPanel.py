@@ -1,14 +1,15 @@
 from GUI.main.EventSystem import eventSystem
 from GUI.public.AbstractFormPanel import AbstractFormPanel
 from core.RepeatFileSearchThread import RepeatFileSearchThread
-from functions import getBtn, PRIMARY
+from GUI.public.functions import getBtn, PRIMARY
 
-
+WAITING, SEARCHING = range(2)
 class FormPanel(AbstractFormPanel):
     def __init__(self, p):
         super().__init__(p)
         self.initUI("重复文件检测",topMargin=120, bottomMargin=250)
         eventSystem.listen("stopSearch", self.stopSearch, self)
+        eventSystem.listen("researchRepeatDetect", self.research, self)
     def createFieldGroup(self):
         self.createGroup(self.createRootDirctoryChoose, "搜索根目录", 'root')
     def stopSearch(self):

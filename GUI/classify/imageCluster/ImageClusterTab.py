@@ -5,5 +5,5 @@ from GUI.main.MainContentTab import MainContentTab
 
 class ImageClusterTab(MainContentTab):
     def __init__(self, parent, size):
-        super().__init__(parent, size, 'ImageCluster')
+        super().__init__(parent, size, 'ImageClassify')
         self.createFormAndResult(FormPanel, ResultPanel)

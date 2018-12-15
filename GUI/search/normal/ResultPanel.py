@@ -4,7 +4,7 @@ from GUI.main.EventSystem import eventSystem
 from GUI.public.ActionDelegate import ActionDelegate
 from GUI.public.AbstractResultPanel import AbstractResultPanel
 from core.Field import Field
-from functions import getBtn, INFO, DEFAULT, PRIMARY
+from GUI.public.functions import getBtn, INFO, DEFAULT, PRIMARY
 
 WAITING, SEARCHING = range(2)
 class ResultPanel(AbstractResultPanel):
